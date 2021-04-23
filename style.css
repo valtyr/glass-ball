@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  user-select: none;
+}
+
+body {
+  background-color: white;
+}
+
+#canvas {
+  image-rendering: optimizeSpeed;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: optimize-contrast;
+  image-rendering: pixelated;
+  -ms-interpolation-mode: nearest-neighbor;
+
+  width: 1024px;
+  height: 1024px;
+
+  background: white;
+
+  transform-origin: 0 0;
+  transform: scale(0.5);
+}
